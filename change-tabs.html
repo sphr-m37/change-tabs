@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <ul class="list">
+    <li class="bordered" data-target=".product">product</li>
+    <li data-target=".review">review</li>
+    <li data-target=".comments">comments</li>
+    <li data-target=".scores">scores</li>
+    <li data-target=".costs">costs</li>
+  </ul>
+  <div class="descriptions">
+    <div class="description product">
+      <h3>product</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem
+        aperiam debitis dolor perspiciatis consectetur exercitationem.
+        Distinctio, amet porro, perferendis beatae molestiae asperiores in
+        doloremque labore, repudiandae temporibus earum! Aperiam.
+      </p>
+    </div>
+    <div class="description review">
+      <h3>review</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem
+        aperiam debitis dolor perspiciatis consectetur exercitationem.
+        Distinctio, amet porro, perferendis beatae molestiae asperiores in
+        doloremque labore, repudiandae temporibus earum! Aperiam.
+      </p>
+    </div>
+    <div class="description comments">
+      <h3>comments</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem
+        aperiam debitis dolor perspiciatis consectetur exercitationem.
+        Distinctio, amet porro, perferendis beatae molestiae asperiores in
+        doloremque labore, repudiandae temporibus earum! Aperiam.
+      </p>
+    </div>
+    <div class="description scores">
+      <h3>scores</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem
+        aperiam debitis dolor perspiciatis consectetur exercitationem.
+        Distinctio, amet porro, perferendis beatae molestiae asperiores in
+        doloremque labore, repudiandae temporibus earum! Aperiam.
+      </p>
+    </div>
+    <div class="description costs">
+      <h3>costs</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem
+        aperiam debitis dolor perspiciatis consectetur exercitationem.
+        Distinctio, amet porro, perferendis beatae molestiae asperiores in
+        doloremque labore, repudiandae temporibus earum! Aperiam.
+      </p>
+    </div>
+  </div>
+  <!-- <script>
+      const tabs = document.querySelectorAll(".list li");
+      const des = document.querySelectorAll(".descriptions .description");
+
+      tabs.forEach(function (item) {
+        item.addEventListener("click", function () {
+          for (item of tabs) {
+            item.classList.remove("bordered");
+          }
+          this.classList.add("bordered");
+
+          //**********************************
+          for (item of des) {
+            item.style.display = "none";
+          }
+          document.querySelector(this.dataset.target).style.display = "block";
+        });
+      });
+    </script> -->
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/app.js">
+
+  </script>
+</body>
+
+</html>

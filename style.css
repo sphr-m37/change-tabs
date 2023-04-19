@@ -1,0 +1,35 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box !important;
+ }
+
+ .list {
+     display: flex;
+     width: 50%;
+     margin: 20px auto;
+     justify-content: space-between;
+     list-style: none;
+ }
+
+ .list li {
+     /* background-color: gray; */
+     width: 100%;
+     padding: 10px 20px;
+     cursor: pointer;
+ }
+
+ .descriptions {
+     width: 80%;
+     margin: 20px auto;
+ }
+
+ .descriptions .description:not(:first-child) {
+     display: none;
+ }
+
+ .bordered {
+     color: red;
+     border-bottom: 10px solid red;
+ }
+
